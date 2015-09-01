@@ -191,6 +191,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " ここに入れたいプラグインを記入
-
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'jelera/vim-javascript-syntax'
 call neobundle#end()
 filetype plugin indent on
